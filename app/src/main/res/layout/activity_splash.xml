@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent" android:layout_height="match_parent"
+      android:orientation="vertical" android:gravity="center"
+      android:background="@color/background_dark" android:padding="32dp">
+
+      <TextView android:id="@+id/tv_logo"
+          android:layout_width="wrap_content" android:layout_height="wrap_content"
+          android:text="🖐️" android:textSize="96sp" android:gravity="center"/>
+
+      <TextView android:id="@+id/tv_titulo"
+          android:layout_width="wrap_content" android:layout_height="wrap_content"
+          android:text="A DIGITAL" android:textSize="36sp" android:textStyle="bold"
+          android:textColor="@color/teal_primary" android:letterSpacing="0.15"
+          android:layout_marginTop="12dp"/>
+
+      <TextView android:id="@+id/tv_slogan"
+          android:layout_width="wrap_content" android:layout_height="wrap_content"
+          android:text="Segurança P2P — sem servidor central"
+          android:textSize="14sp" android:textColor="@color/text_secondary"
+          android:gravity="center" android:layout_marginTop="8dp"/>
+    </LinearLayout>
